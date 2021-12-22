@@ -1,0 +1,81 @@
+@import "./variables";
+@import "./welcome";
+.wel {
+  .sign-in {
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 32px 0px 20px;
+  }
+  .content-img {
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      margin-bottom: 0;
+    }
+  }
+}
+//  .flow{}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .btn {
+    background-color: #008596;
+    border: 3px solid #008596;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    height: 48px;
+    min-width: 128px;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  a {
+    color: #008596;
+    font-size: 16px;
+    margin-right: 28px;
+  }
+}
+hr {
+  margin-top: 50px;
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 0 30px;
+    font-size: 13px;
+    padding-bottom: 10px;
+
+    .floww__container {
+      .content__container {
+        margin: 0 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 100vh;
+        // background-color: yellow;
+      }
+    }
+    .links {
+      padding: 10px;
+      font-size: 12px;
+    }
+    .btn {
+      padding: 5px;
+    }
+  }
+  .hr {
+    margin-top: 20px;
+  }
+}
